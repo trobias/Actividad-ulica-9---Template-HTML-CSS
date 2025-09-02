@@ -1,0 +1,125 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 70%;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.main-content img {
+    width: 50%; /* La imagen ocupa todo el ancho disponible */
+    height: 50%; /* La altura se ajusta proporcionalmente */
+    max-width: 800px; /* Establece un máximo de ancho */
+    margin-top: 20px;
+    object-fit: cover; /* Ajuste para que la imagen no se distorsione */
+}
+
+.main-content .author {
+    font-size: 14px;
+    color: #888;
+    margin: 10px 0;
+}
+
+.main-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.main-content article {
+    margin-bottom: 30px;
+}
+
+.main-content article h2 a {
+    color: #1f4f3a;
+    text-decoration: none;
+}
+
+.main-content article h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 28%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
